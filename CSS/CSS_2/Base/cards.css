@@ -1,0 +1,29 @@
+.card{
+    width: 140px;
+    height: 190px;
+    background: url(../cards.7e0a18f0.png)      
+}
+.nine{
+    background-position: 278px 1184px;
+    
+}
+.valet{
+    background-position: 138px 984px;
+    margin-top: -158px;
+    margin-left: 32px;
+}
+.lady{
+    background-position: 0px 785px;
+    margin-top: -158px;
+    margin-left: 68px;
+}
+.ace{
+    background-position: 426px 387px;
+    margin-top: -158px;
+    margin-left: 105px;
+}
+.joker{
+    background-position: 570px 188px;
+    margin-top: -158px;
+    margin-left: 143px;
+}

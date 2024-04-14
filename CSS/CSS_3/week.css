@@ -1,0 +1,56 @@
+.Menu_level_1{
+    width: 100px;
+}
+.Menu_level_1>div{
+    background-color: grey; 
+    border: solid greenyellow 1px;
+    position: relative;
+    cursor: pointer;
+}
+.Menu_level_2{
+    width: 150px;
+    display: none;
+    
+}
+.Menu_level_2>div{
+    background-color: grey;
+    border: solid greenyellow 1px;
+    cursor: pointer;
+}
+.Menu_level_1>div:hover .Menu_level_2{
+    display: block;
+    position: absolute;
+    left: 80%;
+    top: 90%;
+    z-index: 1;
+    transition-property: all;
+    transition-duration: 3s;
+}
+@media all and (min-width: 616px){
+    .Menu_level_1{
+        width: 100px;
+        float: left;
+    }
+    .Menu_level_1>div{
+        background-color: grey; 
+        border: solid greenyellow 1px;
+        position: relative;
+        cursor: pointer;
+    }
+    .Menu_level_2{
+        width: 150px;
+        display: none;
+    }
+    .Menu_level_2>div{
+        background-color: grey;
+        border: solid greenyellow 1px;
+        cursor: pointer;
+    }
+    .Menu_level_1>div:hover .Menu_level_2{
+        display: block;
+        position: absolute;
+        left: 80%;
+        top: 90%;
+        z-index: 1;   
+    }
+}

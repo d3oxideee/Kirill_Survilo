@@ -1,0 +1,16 @@
+ul{
+    list-style-type: upper-roman;
+    font-weight: 900;
+    width: 350px;
+}
+li ul{
+    list-style-type: lower-roman;
+    font-weight: normal;
+}
+pre{
+    background-color: black;
+    color: green;
+    width: 400px;
+    max-height: 80px;
+    overflow: hidden;
+}

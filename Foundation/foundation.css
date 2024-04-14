@@ -1,0 +1,32 @@
+
+.column{
+    background-color: yellow;
+}
+.column .medium{
+    background-color: blue;
+}
+.column .large{
+    background-color: brown;
+}
+.code{
+    margin-top: 25px;
+    float: right;
+}
+.code span{
+    font-family: 'Courier New', Courier, monospace;
+}
+.list{
+    margin-top: 5px;
+    float: left;
+}
+.block{
+    float: left;
+    margin-top: 30px;
+}
+.text{
+    float: right;
+    margin-top: 30px;
+}
+.clear{
+    clear: both;
+}

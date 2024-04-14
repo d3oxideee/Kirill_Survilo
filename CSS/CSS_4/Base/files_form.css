@@ -1,0 +1,8 @@
+td{
+    border-radius: 0px 10px 0px 10px;
+    border: 1px solid gray   
+}
+
+li{
+    list-style-image: url(../media/icon.jpg);
+}

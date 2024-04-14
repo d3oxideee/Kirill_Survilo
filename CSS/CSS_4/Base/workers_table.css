@@ -1,0 +1,25 @@
+td:not(.last){
+    border-right: 1px dotted gray;
+}
+caption{
+    caption-side: bottom;
+}
+td:not(.bottom){
+    border-bottom: 1px dotted gray;
+}
+.bottom{
+    text-align: center;
+}
+tr:not(:nth-child(even)){
+    background-color: gray;
+}
+tr:first-child{
+    text-align: center;
+    background-color: wheat;
+}
+tr:last-child{
+    background-color: white;
+}
+table tr:hover{
+    background-color: greenyellow;
+}

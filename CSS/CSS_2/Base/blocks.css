@@ -1,0 +1,21 @@
+.navigation{
+    background-color: grey;
+    width: 15em;
+    float: left;
+}
+
+.article{
+    background-color: greenyellow;
+    margin-bottom: .2em;
+    overflow: hidden;
+}
+img{
+   float: right;
+}
+.clear{
+    clear: both;
+}
+.footer{
+    background-color: grey;
+    clear: both;
+}
